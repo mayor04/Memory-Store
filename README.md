@@ -1,16 +1,23 @@
-# image_cloud_server
+# App for Storing Memories 
 
-A new Flutter project.
+A personal secure application that helps users to track their daily life and progress through images that are uploaded to an external server with unique captions.
+This app is backend is written in node js it recieves files and saves on the db [Image Cloud Store](https://github.com/mayor04/Image_Cloud_Store)
 
-## Getting Started
+## Introduction
+This apps uses the following plugin
+ - camera
+ - cupertino_icons
+ - http
+ - image_picker (for taking pictures)
+ - path
+ - path_provider
+ - provider(it uses provider architecture)
 
-This project is a starting point for a Flutter application.
+## Images demo
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="assets/icon/ar(3).jpg" width="260" height="500">
+<img src="assets/icon/ar(4).jpg" width="260" height="500">
+<img src="assets/icon/ar(5).jpg" width="260" height="500">
+<img src="assets/icon/ar(6).jpg" width="260" height="500">
+<img src="assets/icon/ar(1).jpg" width="260" height="500">
+<img src="assets/icon/ar(2).jpg" width="260" height="500">
